@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+
+<h2>Click below to find your friendship score!!<h2>
+<button onclick =generateNumbers()> Check </button>
+<script>
+
+var YourName = prompt("What is your name?");
+var friendName = prompt("What is your friend name?");
+
+
+function generateNumbers(){
+var randonNum =Math.random()*100;
+randonNum =Math.floor(randonNum )+1;
+if(randonNum >70){
+alert("Hi "+YourName +" ,"+friendName +" is your intimate friend "+"and your friendshop score is "+randonNum +"%" )
+
+}else{
+alert("Hi "+YourName +", "+friendName +" is your friend "+"and your friendshop score is "+randonNum +"%" )
+}
+
+
+
+
+}
+
+
+</script>
+</body>
+</html>
